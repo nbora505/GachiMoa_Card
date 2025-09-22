@@ -1,13 +1,18 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Card")]
-public class CardData : ScriptableObject
+public enum Rarity { Common, Rare, Epic, Legendary }
+
+[Serializable]
+public class CardData
 {
     public string id;
-    public string cardName;
-    public int atk;
+    public string name;
+    public Rarity Rarity;
+    public int at;
     public int hp;
     public string abilityName;
     public string abilityDescription;
-    public Sprite artwork;
+    //public Sprite artwork;
 }

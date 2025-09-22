@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4184dff0264fc49bea77bb50e41b19, type: 3}
+  m_Name: GoogleSheetSO
+  m_EditorClassIdentifier: 
+  CharacterList:
+  - ID: C001
+    Name: "\uC591\uAD81\uBD80 \uC624\uB274\uC6D4"
+    Rarity: Rare
+    AT: 6000
+    HP: 3000
+    SkillName: "\uC18D\uC0AC"
+    SkillScript: "\uCD94\uAC00 \uACF5\uACA9 1\uD68C"
+    When: "\uACF5\uACA9"
+    Who: me
+    isGet: 0
+  - ID: C002
+    Name: "\uC554\uC0B4\uC790 \uC724\uC131\uD604"
+    Rarity: Rare
+    AT: 7000
+    HP: 2000
+    SkillName: "\uD68C\uD53C"
+    SkillScript: "\uACF5\uACA9 1\uD68C \uD68C\uD53C"
+    When: "\uD53C\uACA9"
+    Who: me
+    isGet: 0
+  - ID: C003
+    Name: "\uD615\uC0AC \uBC15\uC2B9\uD658"
+    Rarity: Rare
+    AT: 5000
+    HP: 5000
+    SkillName: "\uC218\uC0AC\uAD8C"
+    SkillScript: "1\uD134 \uAC04 \uBB34\uC801 \uC0C1\uD0DC"
+    When: "\uB4F1\uC7A5"
+    Who: me
+    isGet: 0
+  - ID: C004
+    Name: "\uACBD\uCC30 \uB3C4\uBBFC\uC815"
+    Rarity: Rare
+    AT: 4000
+    HP: 6000
+    SkillName: "\uCCB4\uD3EC"
+    SkillScript: "\uC0C1\uB300\uB97C 1\uD134 \uAC04 \uD734\uC2DD"
+    When: "\uACF5\uACA9 \uB300\uC2E0"
+    Who: me
+    isGet: 0
+  - ID: C005
+    Name: "\uC758\uC0AC \uACE0\uC720\uD558"
+    Rarity: Rare
+    AT: 1000
+    HP: 2000
+    SkillName: "\uCE58\uB8CC"
+    SkillScript: "\uC0AC\uB9DD\uD55C \uCE90\uB9AD\uD130\uB97C 1\uBA85 \uBD80\uD65C"
+    When: "\uC801 \uCC98\uCE58"
+    Who: me
+    isGet: 0
+  - ID: C006
+    Name: "\uD0D0\uC815 \uC720\uC7AC\uD76C"
+    Rarity: Rare
+    AT: 3000
+    HP: 3000
+    SkillName: "\uCD94\uB9AC"
+    SkillScript: "\uC0C1\uB300\uC758 \uCE74\uB4DC\uB97C 1\uAC1C \uACF5\uAC1C"
+    When: "\uB4F1\uC7A5"
+    Who: me
+    isGet: 0
+  - ID: C007
+    Name: "\uACBD\uD638\uC6D0 \uD53C\uB3C4\uC5F0"
+    Rarity: Rare
+    AT: 6000
+    HP: 2000
+    SkillName: "\uACBD\uD638"
+    SkillScript: "HP 5000\uC9DC\uB9AC \uBC29\uC5B4\uB9C9 \uC0DD\uC131"
+    When: "\uB4F1\uC7A5"
+    Who: me
+    isGet: 0
+  - ID: C008
+    Name: "\uC54C\uBC14\uC0DD \uC5FC\uCC2C\uBBF8"
+    Rarity: Rare
+    AT: 3000
+    HP: 3000
+    SkillName: "\uB3C4\uC6C0"
+    SkillScript: "\uC790\uC2E0\uC758 \uB2E4\uC74C \uCE90\uB9AD\uD130 AT +3000"
+    When: "\uC0AC\uB9DD"
+    Who: me
+    isGet: 0
+  - ID: C009
+    Name: "\uBA54\uC774\uB4DC \uC720\uC6B0\uB9AC"
+    Rarity: Rare
+    AT: 6000
+    HP: 3000
+    SkillName: "\uC694\uB9AC"
+    SkillScript: "\uC790\uC2E0\uC758 \uB2E4\uC74C \uCE90\uB9AD\uD130 HP +3000"
+    When: "\uC0AC\uB9DD"
+    Who: me
+    isGet: 0
+  - ID: C010
+    Name: "\uD574\uCEE4 \uC9C0\uC740\uD558"
+    Rarity: Rare
+    AT: 3000
+    HP: 3000
+    SkillName: "\uD574\uD0B9"
+    SkillScript: "\uC0C1\uB300\uC758 \uD2B9\uC218\uB2A5\uB825\uC744 \uC81C\uAC70"
+    When: "\uACF5\uACA9"
+    Who: me
+    isGet: 0
+  - ID: C011
+    Name: "\uC0AC\uC11C \uBB38\uC608\uC9C0"
+    Rarity: Rare
+    AT: 4000
+    HP: 2000
+    SkillName: "\uB9C8\uB3C4\uC11C \uC8FC\uBB38"
+    SkillScript: "\uACF5\uACA9 1\uD68C \uBC18\uC0AC"
+    When: "\uD53C\uACA9"
+    Who: me
+    isGet: 0
+  - ID: C012
+    Name: "\uB9E4\uB2C8\uC800 \uB4DC\uB77C\uB9C8\uD2B8\uB8E8\uAE30"
+    Rarity: Rare
+    AT: 2000
+    HP: 10000
+    SkillName: "\uCE5C\uC808\uD55C \uBBF8\uC18C"
+    SkillScript: "\uC801 \uC804\uCCB4 1\uD134 \uAC04 \uD734\uC2DD"
+    When: "\uB4F1\uC7A5"
+    Who: me
+    isGet: 0
+  - ID: C013
+    Name: "\uC815\uCE58\uC778 \uC720\uC11C\uC6B0"
+    Rarity: Rare
+    AT: 5000
+    HP: 2000
+    SkillName: "\uD611\uC0C1"
+    SkillScript: "\uC790\uC2E0\uC758 \uCE74\uB4DC 1\uC7A5\uACFC \uC0C1\uB300\uC758
+      \uCE74\uB4DC 1\uC7A5\uC744 \uAD50\uD658"
+    When: "\uB9E4 \uD134"
+    Who: me
+    isGet: 0
+  - ID: C014
+    Name: "\uBC30\uC6B0 \uAC15\uC0DB\uBCC4"
+    Rarity: Rare
+    AT: 3000
+    HP: 5000
+    SkillName: "\uC5F0\uAE30"
+    SkillScript: "\uC120\uD0DD\uD55C \uCE90\uB9AD\uD130\uC758 \uD2B9\uC218\uB2A5\uB825\uC744
+      \uBCF5\uC81C"
+    When: "\uB4F1\uC7A5"
+    Who: me
+    isGet: 0
+  - ID: C015
+    Name: "\uBB34\uB2F9 \uC8FC\uD558\uB298"
+    Rarity: Rare
+    AT: 4000
+    HP: 4000
+    SkillName: "\uC2E0\uB0B4\uB9BC"
+    SkillScript: "\uC0AC\uB9DD\uD55C \uCE90\uB9AD\uD130\uC758 \uD2B9\uC218\uB2A5\uB825
+      1\uAC1C\uB97C \uD68D\uB4DD"
+    When: "\uB4F1\uC7A5"
+    Who: me
+    isGet: 0
+  - ID: C016
+    Name: "\uAC38\uB8E8 \uC815\uBBF8\uD0A4"
+    Rarity: Rare
+    AT: 1000
+    HP: 2000
+    SkillName: "\uCE5C\uAD6C!"
+    SkillScript: "\uCC98\uCE58\uD55C \uCE90\uB9AD\uD130\uB97C \uC544\uAD70\uC73C\uB85C
+      \uD68D\uB4DD"
+    When: "\uC801 \uCC98\uCE58"
+    Who: me
+    isGet: 0
+  - ID: C017
+    Name: "\uACE0\uC591\uC774 \uAC00\uB8E8"
+    Rarity: Rare
+    AT: 3000
+    HP: 1000
+    SkillName: "\uB3C4\uB9DD\uB2E4\uB2C8\uAE30"
+    SkillScript: "\uACF5\uACA9 2\uD68C \uD68C\uD53C"
+    When: "\uD53C\uACA9"
+    Who: me
+    isGet: 0
